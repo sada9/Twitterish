@@ -36,7 +36,7 @@ refresh the table of tweets!
 ## Video Walkthrough
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/sada9/Twittish/blob/master/twitter.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/sada9/Twitterish/blob/master/twitter.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
