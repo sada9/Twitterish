@@ -93,7 +93,7 @@ class TwitterClient: BDBOAuth1SessionManager {
 
     func homeTimeline() {
 
-        let parameters: [String : AnyObject] = ["trim_user": "false" as AnyObject, "count": "50" as AnyObject]
+        let parameters: [String : AnyObject] = ["trim_user": "false" as AnyObject, "count": "100" as AnyObject]
 
         get("1.1/statuses/home_timeline.json", parameters: parameters, progress: nil, success: { (task, response) in
             let dictionaries = response as! [NSDictionary]
