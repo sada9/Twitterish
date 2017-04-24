@@ -32,9 +32,7 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/sada9/Twitterish/blob/master/twitter.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<img src='https://github.com/sada9/Twitterish/blob/master/twitter-redux.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/sada9/Twitterish/blob/master/twitter.gif' title='Video Walkthrough' width='425' /> <img src='https://github.com/sada9/Twitterish/blob/master/twitter-redux.gif' title='Video Walkthrough' width='425'/>
 
 
 # Twitterish
