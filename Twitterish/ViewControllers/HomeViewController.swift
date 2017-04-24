@@ -36,13 +36,14 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
 
         viewModel = HomeViewModel()
         viewModel?.delegate = self
+        viewModel?.fetch()
         FTIndicator.showProgressWithmessage("Loading timeline..")
     }
 
     override func viewWillAppear(_ animated: Bool) {
-        viewModel = HomeViewModel()
-        viewModel?.delegate = self
-        FTIndicator.showProgressWithmessage("Loading timeline..")
+        //viewModel = HomeViewModel()
+        //viewModel?.delegate = self
+        //FTIndicator.showProgressWithmessage("Loading timeline..")
     }
 
     func composeTweetTapped() {

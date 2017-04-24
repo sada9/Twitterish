@@ -118,19 +118,19 @@ class TweetCell: UITableViewCell {
 
 
     func replyTapped() {
-        delegate.replyButtonTapped(tweetCell: self)
+        delegate?.replyButtonTapped(tweetCell: self)
     }
     
     func retweetTapped() {
-        delegate.retweetButtonTapped(tweetCell: self)
+        delegate?.retweetButtonTapped(tweetCell: self)
     }
 
     func likeTapped() {
-        delegate.likeButtonTapped(tweetCell: self)
+        delegate?.likeButtonTapped(tweetCell: self)
     }
 
     func avatarTapped() {
-        delegate.avatarButtonTapped(tweetCell: self)
+        delegate?.avatarButtonTapped(tweetCell: self)
     }
 
     func hexStringToUIColor (hex:String) -> UIColor {

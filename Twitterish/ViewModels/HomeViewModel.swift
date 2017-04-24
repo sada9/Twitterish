@@ -15,12 +15,18 @@ protocol HomeViewModelDelegate : class {
 
 class HomeViewModel {
 
-     weak var delegate: HomeViewModelDelegate?
+     var delegate: HomeViewModelDelegate?
      var tweets: [Tweet]?
 
-    init() {
+   
+    func fetch() {
         TwitterClient.sharedInstance?.delegate = self
         TwitterClient.sharedInstance?.homeTimeline()
+    }
+
+    func fetchMyTweets(user: User) {
+        TwitterClient.sharedInstance?.delegate = self
+        TwitterClient.sharedInstance?.userTimeline(user: user)
     }
 
     func tweet(at indexPath: IndexPath) -> Tweet? {
@@ -29,6 +35,7 @@ class HomeViewModel {
 
     func refresh(){
         print("refresh - fetching new tweets..")
+         TwitterClient.sharedInstance?.delegate = self
         TwitterClient.sharedInstance?.homeTimeline()
     }
 
@@ -71,6 +78,7 @@ extension HomeViewModel: TwitterClientDelegate {
     func finishedFetchingData(result : Result) {
 
         switch result {
+            
         case .Success(let result):
             tweets = result
             delegate?.dataReady()
