@@ -1,7 +1,7 @@
 # Twitterish - *Enhanced Twitter Redux App*
 Assignment IV
 
-Time spent: **10** hours spent in total
+Time spent: **9** hours spent in total
 
 ## User Stories
 
@@ -31,6 +31,8 @@ The following **optional** features are implemented:
 
 ## Video Walkthrough
 Here's a walkthrough of implemented user stories:
+
+<img src='https://github.com/sada9/Twitterish/blob/master/twitter.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <img src='https://github.com/sada9/Twitterish/blob/master/twitter-redux.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
@@ -74,9 +76,7 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://github.com/sada9/Twitterish/blob/master/twitter.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-Assignment 4:
 
-<img src='https://github.com/sada9/Twitterish/blob/master/twitter-redux.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
